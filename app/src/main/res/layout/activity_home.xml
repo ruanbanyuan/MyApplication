@@ -1,0 +1,27 @@
+<com.deyi.myapplication.colorUi.widget.ColorRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/main_bg"
+>
+
+    <com.deyi.myapplication.colorUi.widget.ColorTextView
+        android:textColor="?attr/font_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:textSize="20sp"
+        android:text="文字" />
+
+    <com.deyi.myapplication.colorUi.widget.ColorButton
+        android:id="@+id/btn"
+        android:text="换肤"
+        android:layout_centerInParent="true"
+        android:textColor="?attr/font_color"
+        android:layout_width="100dip"
+        android:layout_height="80dip" />
+
+
+</com.deyi.myapplication.colorUi.widget.ColorRelativeLayout>
